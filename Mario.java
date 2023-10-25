@@ -59,6 +59,9 @@ public class Mario extends Actor
      getWorld().removeObject(b);
      } else if(vidas == 0 ){
         getWorld().removeObject(this); 
+         sTimer = 10;
+        win1 world = new win1();
+        Greenfoot.setWorld(world);
      }
     }
 }

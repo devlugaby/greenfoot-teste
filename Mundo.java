@@ -58,11 +58,11 @@ public class Mundo extends World
        
     //Diálogo Luigi
         if (Greenfoot.isKeyDown("enter")){
-        setBackground(new GreenfootImage("lu1.jpg"));
+        setBackground(new GreenfootImage("Lu1.png"));
     }
     //Diálogo Mário
         if (Greenfoot.isKeyDown("enter")){
-        setBackground(new GreenfootImage("ma1.jpg"));
+        setBackground(new GreenfootImage("Ma1.png"));
     }
     //Iniciar o jogo
         if (Greenfoot.isKeyDown("enter")){

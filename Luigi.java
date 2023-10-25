@@ -59,6 +59,9 @@ public class Luigi extends Actor
      getWorld().removeObject(b);
      } else if(vidas == 0 ){
         getWorld().removeObject(this); 
+        sTimer = 10;
+        win2 world = new win2();
+        Greenfoot.setWorld(world);
      }
     }
 }
